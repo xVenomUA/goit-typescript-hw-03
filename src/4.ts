@@ -1,3 +1,19 @@
+
+class Key {
+    constructor() {
+        console.log('Key is created');
+    }
+
+    public open() {
+        console.log('Door is open');
+    }
+}
+    
+
+
+
+
+
 const key = new Key();
 
 const house = new MyHouse(key);
